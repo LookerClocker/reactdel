@@ -4,7 +4,7 @@ jQuery(document).ready(function () {
         headers: {'X-Parse-Application-Id': 'promoSite', 'X-Parse-REST-API-Key': 'J59-8zpY7r3~Vf/t'},
         url: "http://server.mon-coupon.com/parse/classes/Coupon",
         data: 'include=retailer,category',
-        contentType: 'text/plain',
+        contentType: 'text/javascript',
         error: function (e) {
             alert('Error ' + e.responseText);
             console.log(e);
