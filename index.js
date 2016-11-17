@@ -1,5 +1,4 @@
 jQuery(document).ready(function () {
-    $( "#coupon" ).load('http://server.mon-coupon.com/parse/classes/Coupon');
     jQuery.ajax({
         type: 'GET',
         headers: {'X-Parse-Application-Id': 'promoSite', 'X-Parse-REST-API-Key': 'J59-8zpY7r3~Vf/t'},
