@@ -11,7 +11,6 @@ jQuery(document).ready(function () {
         }
     }).done(function (resultObject, status) {
         var coupon = resultObject.results;
-        console.log('coupone->',coupon);
         if (coupon && coupon.length > 0) {
             var ul = jQuery("<ul id='col-one'></ul>");
             for (var i = 0; i < coupon.length; i++) {
